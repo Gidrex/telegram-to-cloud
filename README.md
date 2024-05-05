@@ -1,21 +1,21 @@
-# telegram-to-terrabox
+telegram-to-terrabox
 
-Данный бот позволяет автоматически выгружать файлы, отправленные в чат с ботом, на облако Mega.
-Для его работы нужно: заполнить файлы:
-- [mega.txt](./mega.txt) , где первая строка - почта от аккаунта MEGA, а вторая - ваш пароль
-- Создать телеграм бота и взять его токен. Это можно сделать, через [@BotFather](https://web.telegram.org/k/#@BotFather)
-- [telegram_token.txt](./telegram_token.txt) в этот файл положить токет вашего телеграмм бота
+This bot allows you to automatically upload files sent to the chat with the bot to the Mega cloud. To make it work, you need to fill in the files:
 
+    mega.txt, where the first line is the email from your MEGA account, and the second is your password
+    Create a Telegram bot and get its token. This can be done through @BotFather
+    telegram_token.txt put the token of your Telegram bot into this file
 
-# Для запуска бота, требуется версия **Pyton 3.10**
-Подключить виртуальную среду venv, введя команды в этой же директории:
-```bash
-python3.10 -m venv venv # Создание виртуальной среды, через имеющуюся директорию
-source venv/bin/activate # Активация виртуальной среды
+To run the bot, you need Python 3.10
+
+Connect a virtual environment venv by entering commands in the same directory:
+
+```
+python3.10 -m venv venv # Creating a virtual environment through the existing directory
+source venv/bin/activate # Activating the virtual environment
 ```
 
-
-# Для запуска программы, напишите
-```bash
+To run the program, write
+```
 python3.10 main.py
 ```
